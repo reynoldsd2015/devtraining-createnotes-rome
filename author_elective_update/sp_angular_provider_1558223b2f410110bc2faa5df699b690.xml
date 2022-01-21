@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_angular_provider">
+    <sp_angular_provider action="DELETE">
+        <name>delteButtonConfirm</name>
+        <script><![CDATA[function(){
+    return{
+      template:  '<div class="col-md-1"><button class="btn btn-danger pull-right" ng-click="c.confirmDelete()"><span class="glyphicon glyphicon-trash"></span></button></div>',
+      restrict: 'E' 
+      
+    };
+  }]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 16:40:38</sys_created_on>
+        <sys_id>1558223b2f410110bc2faa5df699b690</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>delteButtonConfirm</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sp_angular_provider_1558223b2f410110bc2faa5df699b690</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 17:06:37</sys_updated_on>
+        <type>directive</type>
+    </sp_angular_provider>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>80bbc911dba37bc04d2bac44d496194c</instance_id>
+        <instance_name>dev92589</instance_name>
+        <name>sp_angular_provider_1558223b2f410110bc2faa5df699b690</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_angular_provider"&gt;&lt;sp_angular_provider action="INSERT_OR_UPDATE"&gt;&lt;name&gt;delteButtonConfirm&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function(){
+    return{
+      template:  '&lt;div class="col-md-1"&gt;&lt;button class="btn btn-danger pull-right" ng-click="c.confirmDelete()"&gt;&lt;span class="glyphicon glyphicon-trash"&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;',
+      restrict: 'E' 
+      
+    };
+  }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sp_angular_provider&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-21 16:40:38&lt;/sys_created_on&gt;&lt;sys_id&gt;1558223b2f410110bc2faa5df699b690&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;delteButtonConfirm&lt;/sys_name&gt;&lt;sys_package display_value="CreateNotes" source="x_snc_createnotes"&gt;df5fd9a5090232007f44e1046c8ff69f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreateNotes"&gt;df5fd9a5090232007f44e1046c8ff69f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_angular_provider_1558223b2f410110bc2faa5df699b690&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-21 17:06:37&lt;/sys_updated_on&gt;&lt;type&gt;directive&lt;/type&gt;&lt;/sp_angular_provider&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1507738251</payload_hash>
+        <record_name>delteButtonConfirm</record_name>
+        <reverted_from/>
+        <source>324ac5272f010110bc2faa5df699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 17:06:37</sys_created_on>
+        <sys_id>78ceee3f2f410110bc2faa5df699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e7d9ab28a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 17:06:37</sys_updated_on>
+        <type>Widget Angular Provider</type>
+        <update_guid>70ceee3f894101102d0e1b538953a173</update_guid>
+        <update_guid_history>70ceee3f894101102d0e1b538953a173:1507738251,9cae6e3f0b410110b844dbb85cf0158e:-1092292687,dc3deafbe1410110559799e257e93d5b:1507738251,482deafbae4101107d406bd7852d7354:-1092292687,50d8a2f7e8410110094a9da826ecd7bc:1507738251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="delteButtonConfirm">665fa67f2f410110bc2faa5df699b665</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 17:09:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_angular_provider">sp_angular_provider</sys_db_object>
+        <sys_id>2eeb79c67c8b440891bd44d63906fa40</sys_id>
+        <sys_metadata>1558223b2f410110bc2faa5df699b690</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delteButtonConfirm</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sp_angular_provider_1558223b2f410110bc2faa5df699b690</sys_update_name>
+        <sys_update_version display_value="sp_angular_provider_1558223b2f410110bc2faa5df699b690">78ceee3f2f410110bc2faa5df699b673</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 17:09:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
